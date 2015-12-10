@@ -16,6 +16,7 @@ defmodule Sequence.Server do
     GenServer.cast __MODULE__, { :increment_number, delta }
   end
 
+
   ####
   # GenServer implementation
 
